@@ -6,9 +6,10 @@ function App() {
   return (
     <div>
     <Router>
-      <NavBar/>
       <Routes>
-        <Route path='/animals' component={Animals} />
+        <Route path='/' element={<NavBar />}>
+          <Route path='animals' element={<Animals/>} />
+        </Route>
       </Routes>
     </Router>
     </div>
