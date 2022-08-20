@@ -1,0 +1,14 @@
+.background{
+  background: #F6F5F5;
+}
+
+.logo {
+  margin:20px;
+  margin-left:40px;
+  width:200px;
+}
+
+li{
+  list-style-type: none;
+  display:inline-block;
+}
