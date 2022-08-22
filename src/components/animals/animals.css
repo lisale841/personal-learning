@@ -1,0 +1,11 @@
+.gameWrapper{
+  width:80vh;
+  height:80vh;
+  background-color: rgb(245, 245, 145);
+  margin:auto;
+}
+
+.gameBackground{
+  width:100%;
+  background: rgb(227, 224, 252);
+}
