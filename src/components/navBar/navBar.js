@@ -9,7 +9,6 @@ const NavBar= () =>{
        <Link className="logo" to="/">
           <img src={require('../../images/vera-saurus.png')} alt ="logo" className="logo"/>
       </Link>
-
     </li>
     <li>
       <Link className="logo" to="/animals">
