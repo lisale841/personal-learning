@@ -4,10 +4,13 @@ import {Link, Outlet} from "react-router-dom";
 import '../../images/logo.jpg';
 const NavBar= () =>{
   return (
-  <div className="background">
+
+  <div className="navBar">
     <li>
        <Link className="logo" to="/">
-          <img src={require('../../images/vera-saurus.png')} alt ="logo" className="logo"/>
+        <div className="circle">
+          <img src={require('../../images/vera-saurus2.png')} alt ="logo" className="logoVerasaurus"/>
+        </div>
       </Link>
     </li>
     <li>
