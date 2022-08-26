@@ -2,16 +2,19 @@ import './App.css';
 import { BrowserRouter as Router, Routes, Route} from "react-router-dom";
 import NavBar from "./components/navBar/navBar"
 import Animals from "./components/animals/Animals"
+import HomePage from "./components/homePage/HomePage"
 function App() {
   return (
+    <div className="container">
     <div>
     <Router>
       <Routes>
-        <Route path='/' element={<NavBar />}>
-          <Route path='animals' element={<Animals/>} />
+        <Route path='/' element={<><NavBar/><HomePage/></>} >
+        <Route path='animals' element={<Animals/>} />
         </Route>
       </Routes>
     </Router>
+    </div>
     </div>
   );
 }

@@ -1,5 +1,5 @@
-.App {
-  text-align: center;
+/* .App { */
+  /* text-align: center;
 }
 
 .App-logo {
@@ -35,4 +35,35 @@
   to {
     transform: rotate(360deg);
   }
+} */
+
+
+.container {
+  max-width: 35.938rem;
+  margin: 0 auto;
+  cursor: url(../src/images/star.png),auto;
 }
+
+
+/* mobile */
+@media screen and (min-width: 736px) {
+  .container {
+    max-width: 45.938rem;
+    margin: 0 auto;
+  }
+}
+
+  /* tablet */
+   @media screen and (min-height: 1024px) {
+ .container {
+  max-width: 100%;
+ }
+}
+
+
+ /* DESKTOP */
+ @media screen and (min-width: 1300px) {
+   .container {
+     max-width: 100%;
+   }
+  }
