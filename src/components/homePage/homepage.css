@@ -1,11 +1,12 @@
-.gameWrapper {
-  /* width: 80vh;
-  height: 80vh; */
+.homeWrapper {
+  width: 100vh;
+  height: 100vh;
   background-color: rgb(245, 245, 145);
   margin: auto;
 }
 
 .homeBackground {
   width: 100%;
-  background: rgb(227, 224, 252);
+  /* background: rgb(227, 224, 252); */
+  background-image:url(../../images/background-image.png)
 }

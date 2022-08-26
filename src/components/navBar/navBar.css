@@ -13,11 +13,28 @@
   overflow: hidden;
 }
 
+.gameBorder{
+  display: inline-block;
+    margin: 10px;
+    height: 64px;
+    /* width: 75px; */
+    border-radius: 28%;
+    border: 2px solid #E57E87;
+    text-align: center;
+    overflow: hidden;
+}
+
 .logoVerasaurus{
   width: 100%;
   height: 100%;
   object-fit: contain;
   border-radius:50%
+}
+
+.gameLogo{
+   width: 100%;
+   height: 100%;
+   object-fit: contain;
 }
 
 .logo {

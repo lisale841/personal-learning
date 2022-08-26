@@ -40,6 +40,7 @@
 
 .container {
   max-width: 35.938rem;
+
   margin: 0 auto;
   cursor: url(../src/images/star.png),auto;
 }
@@ -49,6 +50,7 @@
 @media screen and (min-width: 736px) {
   .container {
     max-width: 45.938rem;
+
     margin: 0 auto;
   }
 }
