@@ -2,7 +2,7 @@ import './App.css';
 import { BrowserRouter as Router, Routes, Route} from "react-router-dom";
 import NavBar from "./components/navBar/navBar"
 import Animals from "./components/animals/Animals"
-import HomePage from "./components/homePage/HomePage"
+import Home from "./components/homePage/Home"
 function App() {
   return (
     <div className="container">
@@ -10,7 +10,7 @@ function App() {
     <Router>
       <NavBar/>
       <Routes>
-        <Route path='/' element={<HomePage/>} />
+        <Route path='/' element={<Home/>} />
         <Route path='/animals' element={<Animals/>} />
         {/* </Route> */}
       </Routes>

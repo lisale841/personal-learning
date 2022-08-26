@@ -1,6 +1,6 @@
 import React from 'react';
 import './homepage.css';
-const HomePage = () =>{
+const Home = () =>{
   return (
     <div className='homeBackground'>
      <div className='homeWrapper'>
@@ -15,4 +15,4 @@ const HomePage = () =>{
     </div>
   );
 }
-export default HomePage;
+export default Home;
