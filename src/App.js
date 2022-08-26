@@ -8,15 +8,15 @@ function App() {
     <div className="container">
     <div>
     <Router>
+      <NavBar/>
       <Routes>
-        <Route path='/' element={<><NavBar/><HomePage/></>} >
-        <Route path='animals' element={<Animals/>} />
-        </Route>
+        <Route path='/' element={<HomePage/>} />
+        <Route path='/animals' element={<Animals/>} />
+        {/* </Route> */}
       </Routes>
     </Router>
     </div>
     </div>
   );
 }
-
 export default App;
