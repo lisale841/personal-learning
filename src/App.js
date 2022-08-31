@@ -4,6 +4,7 @@ import NavBar from "./components/navBar/navBar"
 import Animals from "./components/animals/Animals"
 import Home from "./components/homePage/Home"
 import Foods from "./components/food/Foods"
+
 function App() {
   return (
     <div className="container">
